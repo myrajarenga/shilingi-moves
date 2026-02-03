@@ -12,13 +12,13 @@ const Hero = () => {
     ];
 
     return (
-        <section className="bg-gradient-to-br from-white via-green-50/30 to-white pt-8 pb-16 md:pt-12 md:pb-24 overflow-hidden">
+        <section className="bg-gradient-to-br from-white via-green-50/30 to-white pt-4 pb-8 md:pt-6 md:pb-12 overflow-hidden">
             <div className="container-custom">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     {/* Left Column - Copy */}
-                    <div className="space-y-8 relative z-10">
-                        <div className="space-y-4">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                    <div className="space-y-5 relative z-10">
+                        <div className="space-y-3">
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                                 Take Control of Your Money. <br className="hidden lg:block" />
                                 <span className="text-primary-600">Build the Life You Want.</span>
                             </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
                         </div>
 
                         {/* Features List */}
-                        <ul className="space-y-3">
+                        <ul className="space-y-2">
                             {features.map((feature, index) => (
                                 <li key={index} className="flex items-start space-x-3">
                                     <div className="flex-shrink-0 mt-0.5">
@@ -60,7 +60,7 @@ const Hero = () => {
                         <img
                             src={HeroDashboardImg}
                             alt="Shilingi Moves Dashboard App Interface showing savings and transactions"
-                            className="w-full h-auto drop-shadow-2xl hover:scale-[1.02] transition-transform duration-500 ease-in-out"
+                            className="w-full h-auto max-h-[350px] md:max-h-[420px] lg:max-h-[480px] object-contain drop-shadow-2xl hover:scale-[1.02] transition-transform duration-500 ease-in-out"
                             style={{ animation: 'float 6s ease-in-out infinite' }}
                         />
                     </div>
