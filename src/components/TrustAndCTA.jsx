@@ -101,7 +101,7 @@ const TrustAndCTA = () => {
                                 variant="primary"
                                 size="lg"
                                 to="/signup"
-                                className="bg-white text-primary-600 hover:bg-gray-50 border-transparent"
+                                className="bg-primary-500 hover:bg-primary-400 text-white border-transparent shadow-lg"
                             >
                                 Create my dashboard
                             </Button>
